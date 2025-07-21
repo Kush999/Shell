@@ -12,6 +12,7 @@
 #
 ################################
 echo "Hey buddy! how's it going? Wassup!"
+echo "This line was added in main branch"
 if [ ${#@} -lt 2 ]; then
     echo "usage: $0 [your github token] [REST expression]"
     exit 1;
